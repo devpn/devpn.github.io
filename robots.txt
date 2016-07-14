@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /resume/
+Sitemap: https://devpn.github.io/sitemap.xml
