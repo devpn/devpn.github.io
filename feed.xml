@@ -11,7 +11,7 @@
 &lt;h2 id=&quot;-devpn-&quot;&gt;使用DEVPN购物安全吗？&lt;/h2&gt;
 &lt;p&gt;网络上我们最关注的就是安全第一了，首先要说的是互联网上没有百分百安全的。但是，DEVPN绝对不是让你的网络更加脆弱，而是给你的网络安全加上一道锁。经过DEVPN的网络数据都是加密的。连接上以后，你与DEVPN服务器之间的数据都是加密的，然后访问的一些网银的网站，一般都采用了https加密链接，所以DEVPN服务器与网银服务器之间的数据传输也是加密的。即时你没有使用VPN，在公共的WIFI里面，使用网银之类的进行支付，同样是安全的，只要您不告诉别人自己的账号密码，就不会有被盗刷的可能性。&lt;/p&gt;
 &lt;h2 id=&quot;devpn-&quot;&gt;DEVPN可以试用吗？&lt;/h2&gt;
-&lt;p&gt;当然可以，而且不需要任何个人隐私信息，只需要输入验证吗判别不是机器人就可以免费试用高达一个小时。如果你喜欢，可以不断重复地获取免费试用，试用的网址是 &lt;a href=&quot;http://devpn.info/try/&quot;&gt;http://devpn.info/try/&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;当然可以，而且不需要任何个人隐私信息，只需要输入验证吗判别不是机器人就可以免费试用高达一个小时。如果你喜欢，可以不断重复地获取免费试用，试用的网址是 &lt;a href=&quot;http://devpnss.com/try/&quot;&gt;http://devpnss.com/try/&lt;/a&gt; 。&lt;/p&gt;
 </description></item><item><title>路由器刷DD-WRT并设置PPTP方式VPN</title><link>https://devpn.github.io/articles/setting-pptp-in-ddwrt/</link><pubDate>Tue, 12 Jul 2016 08:00:00 +0800</pubDate><guid isPermaLink="true">https://devpn.github.io/articles/setting-pptp-in-ddwrt/</guid><author></author><description>&lt;p&gt;当你有多个设备在家时，要让每个设备都翻墙往往是很麻烦的。电脑上有ssh、vpn等多种方案，而Android上常用goagent，iPhone不越狱的话则只能依赖vpn或APN Proxy。而且这些方案往往在稳定性、流量控制、速度上各有各的问题。于是就有聪明人发明了从路由器级别搞定翻墙的办法。对所有设备透明，稳定，流量耗用小。&lt;/p&gt;
 &lt;!-- MORE --&gt;
 &lt;h2 id=&quot;-dd-wrt-&quot;&gt;哪些路由器可刷DD-WRT固件&lt;/h2&gt;
@@ -38,7 +38,7 @@
 &lt;!-- MORE --&gt;
 &lt;p&gt;&lt;img src=&quot;/articles/vpn-691-error/vpn-691-error.png&quot; alt=&quot;VPN691错误提示&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;-&quot;&gt;检查用户名或密码是否真的错误&lt;/h2&gt;
-&lt;p&gt;检查用户名或密码这一步是不可少的，可以到&lt;a href=&quot;http://devpn.info/login/&quot;&gt;得自由的最新网址&lt;/a&gt;进行登录，如果登录成功的话说明用户名和密码是正确的。&lt;/p&gt;
+&lt;p&gt;检查用户名或密码这一步是不可少的，可以到&lt;a href=&quot;http://devpnss.com/login/&quot;&gt;得自由的最新网址&lt;/a&gt;进行登录，如果登录成功的话说明用户名和密码是正确的。&lt;/p&gt;
 &lt;h2 id=&quot;-vpn-&quot;&gt;检查VPN信道配置（属性）&lt;/h2&gt;
 &lt;p&gt;打开VPN连接属性，设置为 &lt;strong&gt;MS-CHAP v2&lt;/strong&gt; 方式加密：
 &lt;img src=&quot;/articles/vpn-691-error/vpn-setting.png&quot; alt=&quot;VPN加密方式&quot;&gt;&lt;/p&gt;
@@ -46,7 +46,7 @@
 &lt;p&gt;如果你购买的套餐只有一个连接数，当VPN连接出现异常而立刻重新连接时，因服务器验证系统还保留之前的连接信息，从而验证不过。解决的方法有：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;稍等大约10分钟，系统将会自动清除异常的连接，然后您再尝试连接。&lt;/li&gt;
-&lt;li&gt;直接到得自由后台把异常的连接手动断开，点击&lt;a href=&quot;http://devpn.info/my/index/&quot;&gt;得自由的VPN连接断开地址&lt;/a&gt;，在页面的下方将看到&lt;strong&gt;当前在线情况&lt;/strong&gt;的列表，找到需要断开的连接直接断开就可以啦。&lt;/li&gt;
+&lt;li&gt;直接到得自由后台把异常的连接手动断开，点击&lt;a href=&quot;http://devpnss.com/my/index/&quot;&gt;得自由的VPN连接断开地址&lt;/a&gt;，在页面的下方将看到&lt;strong&gt;当前在线情况&lt;/strong&gt;的列表，找到需要断开的连接直接断开就可以啦。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&quot;-&quot;&gt;在短时间内重试过于频繁&lt;/h2&gt;
 &lt;p&gt;如果短时间内过于频繁地重试连接，系统会误以为是恶意连接而拒绝，请过半小时再尝试进行连接。&lt;/p&gt;
