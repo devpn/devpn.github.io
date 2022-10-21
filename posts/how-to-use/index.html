@@ -1,0 +1,165 @@
+<!doctype html><html lang=en dir=auto>
+<head><meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<meta name=robots content="index, follow">
+<title>哪种连接协议最适合我 | 得自由使用教程</title>
+<meta name=keywords content>
+<meta name=description content="目前最好用的连接协议是 Trojan，使用 Clash 客户端进行连接。
+时代在变，同时国家防火墙 GFW 也在不断地进步，有些连接使用一段时间就会被识别并阻拦，故每隔一段需要调整连接协议以获得稳定的连接。
+并非每个 VPN 协议都适用于所有操作系统，确保选择适用于您要使用的设备的 VPN 协议。
+我们的 VPN 协议产品 PPTP PPTP（点对点隧道协议）是可用的最古老的 VPN 协议之一。 PPTP 速度极快，但这是由于使用的加密较弱。 它不像大多数安全 VPN 协议那样使用 AES，而是使用 Microsoft 的点对点加密，该加密存在许多安全漏洞。 因此，PPTP 已经破解了十多年，MacOS 也不再支持 PPTP 协议。
+对于那些不介意安全并且只想解锁网站的人来说，PPTP 是一个绝佳的选择。 这意味着您的互联网速度不会受到太大影响，从而在视频流式传输时获得良好的体验。
+如果您完全关心您的安全性，您应该完全避免 PPTP 并使用不同的 VPN 协议。
+L2TP/IPSec L2TP/IPSec 是目前可用的另一种最广泛支持的 VPN 协议。 它在包括 Windows 和 Android 在内的许多操作系统中具有原生支持。
+L2TP/IPSec 的工作方式与 PPTP 类似，因为它使用 MPPE，但它在安全的 AES 隧道内分层。 这只会增加更多的开销，并且添加 MPPE 并没有好处，因为它已经被破解了。
+L2TP/IPSec 最多支持 AES-256 位加密。 让 IPSec 通过防火墙也可能有点痛苦。
+L2TP/IPSec 是一个可靠的选择，尤其是对于 Android 用户，因此最好将其作为备份选项。">
+<meta name=author content>
+<link rel=canonical href=https://devpn.github.io/posts/how-to-use/>
+<link crossorigin=anonymous href=/assets/css/stylesheet.bc1149f4a72aa4858d3a9f71462f75e5884ffe8073ea9d6d5761d5663d651e20.css integrity="sha256-vBFJ9KcqpIWNOp9xRi915YhP/oBz6p1tV2HVZj1lHiA=" rel="preload stylesheet" as=style>
+<script defer crossorigin=anonymous src=/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG+9vmJ0cTS+ovo0FeA=" onload=hljs.initHighlightingOnLoad()></script>
+<link rel=icon href=https://devpn.github.io/favicon.ico>
+<link rel=icon type=image/png sizes=16x16 href=https://devpn.github.io/favicon-16x16.png>
+<link rel=icon type=image/png sizes=32x32 href=https://devpn.github.io/favicon-32x32.png>
+<link rel=apple-touch-icon href=https://devpn.github.io/apple-touch-icon.png>
+<link rel=mask-icon href=https://devpn.github.io/safari-pinned-tab.svg>
+<meta name=theme-color content="#2e2e33">
+<meta name=msapplication-TileColor content="#2e2e33">
+<noscript>
+<style>#theme-toggle,.top-link{display:none}</style>
+<style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style>
+</noscript><meta property="og:title" content="哪种连接协议最适合我">
+<meta property="og:description" content="目前最好用的连接协议是 Trojan，使用 Clash 客户端进行连接。
+时代在变，同时国家防火墙 GFW 也在不断地进步，有些连接使用一段时间就会被识别并阻拦，故每隔一段需要调整连接协议以获得稳定的连接。
+并非每个 VPN 协议都适用于所有操作系统，确保选择适用于您要使用的设备的 VPN 协议。
+我们的 VPN 协议产品 PPTP PPTP（点对点隧道协议）是可用的最古老的 VPN 协议之一。 PPTP 速度极快，但这是由于使用的加密较弱。 它不像大多数安全 VPN 协议那样使用 AES，而是使用 Microsoft 的点对点加密，该加密存在许多安全漏洞。 因此，PPTP 已经破解了十多年，MacOS 也不再支持 PPTP 协议。
+对于那些不介意安全并且只想解锁网站的人来说，PPTP 是一个绝佳的选择。 这意味着您的互联网速度不会受到太大影响，从而在视频流式传输时获得良好的体验。
+如果您完全关心您的安全性，您应该完全避免 PPTP 并使用不同的 VPN 协议。
+L2TP/IPSec L2TP/IPSec 是目前可用的另一种最广泛支持的 VPN 协议。 它在包括 Windows 和 Android 在内的许多操作系统中具有原生支持。
+L2TP/IPSec 的工作方式与 PPTP 类似，因为它使用 MPPE，但它在安全的 AES 隧道内分层。 这只会增加更多的开销，并且添加 MPPE 并没有好处，因为它已经被破解了。
+L2TP/IPSec 最多支持 AES-256 位加密。 让 IPSec 通过防火墙也可能有点痛苦。
+L2TP/IPSec 是一个可靠的选择，尤其是对于 Android 用户，因此最好将其作为备份选项。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://devpn.github.io/posts/how-to-use/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2022-10-21T13:19:26+08:00">
+<meta property="article:modified_time" content="2022-10-21T13:19:26+08:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="哪种连接协议最适合我">
+<meta name=twitter:description content="目前最好用的连接协议是 Trojan，使用 Clash 客户端进行连接。
+时代在变，同时国家防火墙 GFW 也在不断地进步，有些连接使用一段时间就会被识别并阻拦，故每隔一段需要调整连接协议以获得稳定的连接。
+并非每个 VPN 协议都适用于所有操作系统，确保选择适用于您要使用的设备的 VPN 协议。
+我们的 VPN 协议产品 PPTP PPTP（点对点隧道协议）是可用的最古老的 VPN 协议之一。 PPTP 速度极快，但这是由于使用的加密较弱。 它不像大多数安全 VPN 协议那样使用 AES，而是使用 Microsoft 的点对点加密，该加密存在许多安全漏洞。 因此，PPTP 已经破解了十多年，MacOS 也不再支持 PPTP 协议。
+对于那些不介意安全并且只想解锁网站的人来说，PPTP 是一个绝佳的选择。 这意味着您的互联网速度不会受到太大影响，从而在视频流式传输时获得良好的体验。
+如果您完全关心您的安全性，您应该完全避免 PPTP 并使用不同的 VPN 协议。
+L2TP/IPSec L2TP/IPSec 是目前可用的另一种最广泛支持的 VPN 协议。 它在包括 Windows 和 Android 在内的许多操作系统中具有原生支持。
+L2TP/IPSec 的工作方式与 PPTP 类似，因为它使用 MPPE，但它在安全的 AES 隧道内分层。 这只会增加更多的开销，并且添加 MPPE 并没有好处，因为它已经被破解了。
+L2TP/IPSec 最多支持 AES-256 位加密。 让 IPSec 通过防火墙也可能有点痛苦。
+L2TP/IPSec 是一个可靠的选择，尤其是对于 Android 用户，因此最好将其作为备份选项。">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://devpn.github.io/posts/"},{"@type":"ListItem","position":2,"name":"哪种连接协议最适合我","item":"https://devpn.github.io/posts/how-to-use/"}]}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"哪种连接协议最适合我","name":"哪种连接协议最适合我","description":"目前最好用的连接协议是 Trojan，使用 Clash 客户端进行连接。\n时代在变，同时国家防火墙 GFW 也在不断地进步，有些连接使用一段时间就会被识别并阻拦，故每隔一段需要调整连接协议以获得稳定的连接。\n并非每个 VPN 协议都适用于所有操作系统，确保选择适用于您要使用的设备的 VPN 协议。\n我们的 VPN 协议产品 PPTP PPTP（点对点隧道协议）是可用的最古老的 VPN 协议之一。 PPTP 速度极快，但这是由于使用的加密较弱。 它不像大多数安全 VPN 协议那样使用 AES，而是使用 Microsoft 的点对点加密，该加密存在许多安全漏洞。 因此，PPTP 已经破解了十多年，MacOS 也不再支持 PPTP 协议。\n对于那些不介意安全并且只想解锁网站的人来说，PPTP 是一个绝佳的选择。 这意味着您的互联网速度不会受到太大影响，从而在视频流式传输时获得良好的体验。\n如果您完全关心您的安全性，您应该完全避免 PPTP 并使用不同的 VPN 协议。\nL2TP/IPSec L2TP/IPSec 是目前可用的另一种最广泛支持的 VPN 协议。 它在包括 Windows 和 Android 在内的许多操作系统中具有原生支持。\nL2TP/IPSec 的工作方式与 PPTP 类似，因为它使用 MPPE，但它在安全的 AES 隧道内分层。 这只会增加更多的开销，并且添加 MPPE 并没有好处，因为它已经被破解了。\nL2TP/IPSec 最多支持 AES-256 位加密。 让 IPSec 通过防火墙也可能有点痛苦。\nL2TP/IPSec 是一个可靠的选择，尤其是对于 Android 用户，因此最好将其作为备份选项。","keywords":[],"articleBody":"目前最好用的连接协议是 Trojan，使用 Clash 客户端进行连接。\n时代在变，同时国家防火墙 GFW 也在不断地进步，有些连接使用一段时间就会被识别并阻拦，故每隔一段需要调整连接协议以获得稳定的连接。\n并非每个 VPN 协议都适用于所有操作系统，确保选择适用于您要使用的设备的 VPN 协议。\n我们的 VPN 协议产品 PPTP PPTP（点对点隧道协议）是可用的最古老的 VPN 协议之一。 PPTP 速度极快，但这是由于使用的加密较弱。 它不像大多数安全 VPN 协议那样使用 AES，而是使用 Microsoft 的点对点加密，该加密存在许多安全漏洞。 因此，PPTP 已经破解了十多年，MacOS 也不再支持 PPTP 协议。\n对于那些不介意安全并且只想解锁网站的人来说，PPTP 是一个绝佳的选择。 这意味着您的互联网速度不会受到太大影响，从而在视频流式传输时获得良好的体验。\n如果您完全关心您的安全性，您应该完全避免 PPTP 并使用不同的 VPN 协议。\nL2TP/IPSec L2TP/IPSec 是目前可用的另一种最广泛支持的 VPN 协议。 它在包括 Windows 和 Android 在内的许多操作系统中具有原生支持。\nL2TP/IPSec 的工作方式与 PPTP 类似，因为它使用 MPPE，但它在安全的 AES 隧道内分层。 这只会增加更多的开销，并且添加 MPPE 并没有好处，因为它已经被破解了。\nL2TP/IPSec 最多支持 AES-256 位加密。 让 IPSec 通过防火墙也可能有点痛苦。\nL2TP/IPSec 是一个可靠的选择，尤其是对于 Android 用户，因此最好将其作为备份选项。\nAnyConnect AnyConnect 具有速度快，稳定性超高，不断线几个优点。\n此外，它内置智能分流机制，只有访问国外网站时才经由VPN服务器，而访问国内网站时则是直连(需要全局走 VPN 的就不要使用 AnyConnect)。\n最后，AnyConnect 的适应性超强，L2TP或PPTP协议不能正常连接的用户都可以选择 AnyConnect。\nAnyConnect 还可以在 App Store 上面下载安装，这是比较难得的。\n虽然 AnyConnect 有很多优点，不过目前已经被墙识别并阻断，敏感时期也会出现连接不上情况，也只能作为备份选项。\nShadowsocks Shadowsocks（简称SS）是一种基于Socks5代理方式的加密传输协议，也可以指实现这个协议的各种开发包。\nShadowsocks 使用自行设计的协议进行加密通信。加密算法有AES、Blowfish、ChaCha20、RC4等，除建立TCP连接外无需握手，每次请求只转发一个连接，无需保持“一直连线”的状态，因此在移动设备上相对较为省电。\n相较于 OpenVPN，WireGuard 等一流 VPN 协议，此类代理协议安全性能还是无法相提并论，使用它们泄露 IP 地址和其他重要信息的概率会大幅增加。\n由于使用的用户较多，目前已经被墙针对，翻墙效果大不如前，如果没有加混淆的话根本就无法连接成功。建议不要再使用 Shadowsocks 连接协议。\nTrojan Trojan英语翻译过来就是特洛伊木马的意思，这暗示了其绕过防火长城的方式，它将流量伪装成普通的HTTPS协议，从而达到绕过深包检测的目的，这类似于使用V2ray的WS+TLS模式。由于Trojan是最新刚刚兴起的翻墙工具，因此目前看来翻墙效果会更好。\n通过搭建真实的网站伪装为正常的HTTPS流量，不容易被墙检测到。不容易被QOS限速，因此速度和稳定性都更好。使用TLS安全层进行加密，防止数据泄露。\n不过由于 iOS 操作系统的封闭性，无法在国内找到对应的连接 APP。\n技术本身比较新，目前还没有被墙针对，或者是还没有被墙识别出来。除了 iOS 操作系统，建议优先使用 Trojan 连接协议，实测运行良好，比较稳定。\n翻墙与科学上网总结 经过一番分析和对比，我们也看到了 Trojan 连接协议是目前最优的选择，使用 Clash 客户端进行配置连接。不过 iPhone 和 iPad 设备的用户就没那么幸运了，只能使用 AnyConnect 连接协议。\n最后还是要提醒尊贵的用户，不要使用 VPN 从事任何违法犯罪、黑客、网络攻击等行为，少在国内网上发言，说不准哪一天被邀请去喝茶。\n如果您连接不上，请获取最新的服务列表并更换服务器测试。在政治敏感时期可能会连接不稳定，建议更换服务器或协议重连，不便之处敬请原谅！\n","wordCount":"131","inLanguage":"en","datePublished":"2022-10-21T13:19:26+08:00","dateModified":"2022-10-21T13:19:26+08:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://devpn.github.io/posts/how-to-use/"},"publisher":{"@type":"Organization","name":"得自由使用教程","logo":{"@type":"ImageObject","url":"https://devpn.github.io/favicon.ico"}}}</script>
+</head>
+<body id=top>
+<script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
+<header class=header>
+<nav class=nav>
+<div class=logo>
+<a href=https://devpn.github.io/ accesskey=h title="得自由使用教程 (Alt + H)">得自由使用教程</a>
+<div class=logo-switches>
+<button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+</button>
+</div>
+</div>
+<ul id=menu>
+<li>
+<a href=https://devpn.github.io/categories/mac/ title=MacOS>
+<span>MacOS</span>
+</a>
+</li>
+<li>
+<a href=https://devpn.github.io/categories/win/ title=Windows>
+<span>Windows</span>
+</a>
+</li>
+<li>
+<a href=https://devpn.github.io/categories/android/ title=Android>
+<span>Android</span>
+</a>
+</li>
+<li>
+<a href=https://devpn.github.io/categories/ios/ title=iOS>
+<span>iOS</span>
+</a>
+</li>
+<li>
+<a href=http://dewin.shop/ title=得自由官网>
+<span>得自由官网</span>&nbsp;<svg fill="none" shape-rendering="geometricPrecision" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>
+</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=main>
+<article class=post-single>
+<header class=post-header>
+<h1 class=post-title>
+哪种连接协议最适合我
+</h1>
+<div class=post-meta><span title="2022-10-21 13:19:26 +0800 CST">October 21, 2022</span>
+</div>
+</header>
+<div class=post-content><p>目前最好用的连接协议是 Trojan，使用 Clash 客户端进行连接。</p>
+<p>时代在变，同时国家防火墙 GFW 也在不断地进步，有些连接使用一段时间就会被识别并阻拦，故每隔一段需要调整连接协议以获得稳定的连接。</p>
+<p>并非每个 VPN 协议都适用于所有操作系统，确保选择适用于您要使用的设备的 VPN 协议。</p>
+<h2 id=我们的-vpn-协议产品>我们的 VPN 协议产品<a hidden class=anchor aria-hidden=true href=#我们的-vpn-协议产品>#</a></h2>
+<h3 id=pptp>PPTP<a hidden class=anchor aria-hidden=true href=#pptp>#</a></h3>
+<p>PPTP（点对点隧道协议）是可用的最古老的 VPN 协议之一。 PPTP 速度极快，但这是由于使用的加密较弱。 它不像大多数安全 VPN 协议那样使用 AES，而是使用 Microsoft 的点对点加密，该加密存在许多安全漏洞。 因此，PPTP 已经破解了十多年，MacOS 也不再支持 PPTP 协议。</p>
+<p>对于那些不介意安全并且只想解锁网站的人来说，PPTP 是一个绝佳的选择。 这意味着您的互联网速度不会受到太大影响，从而在视频流式传输时获得良好的体验。</p>
+<p>如果您完全关心您的安全性，您应该完全避免 PPTP 并使用不同的 VPN 协议。</p>
+<h3 id=l2tpipsec>L2TP/IPSec<a hidden class=anchor aria-hidden=true href=#l2tpipsec>#</a></h3>
+<p>L2TP/IPSec 是目前可用的另一种最广泛支持的 VPN 协议。 它在包括 Windows 和 Android 在内的许多操作系统中具有原生支持。</p>
+<p>L2TP/IPSec 的工作方式与 PPTP 类似，因为它使用 MPPE，但它在安全的 AES 隧道内分层。 这只会增加更多的开销，并且添加 MPPE 并没有好处，因为它已经被破解了。</p>
+<p>L2TP/IPSec 最多支持 AES-256 位加密。 让 IPSec 通过防火墙也可能有点痛苦。</p>
+<p>L2TP/IPSec 是一个可靠的选择，尤其是对于 Android 用户，因此最好将其作为备份选项。</p>
+<h3 id=anyconnect>AnyConnect<a hidden class=anchor aria-hidden=true href=#anyconnect>#</a></h3>
+<p>AnyConnect 具有速度快，稳定性超高，不断线几个优点。</p>
+<p>此外，它内置智能分流机制，只有访问国外网站时才经由VPN服务器，而访问国内网站时则是直连(需要全局走 VPN 的就不要使用 AnyConnect)。</p>
+<p>最后，AnyConnect 的适应性超强，L2TP或PPTP协议不能正常连接的用户都可以选择 AnyConnect。</p>
+<p>AnyConnect 还可以在 App Store 上面下载安装，这是比较难得的。</p>
+<p>虽然 AnyConnect 有很多优点，不过目前已经被墙识别并阻断，敏感时期也会出现连接不上情况，也只能作为备份选项。</p>
+<h3 id=shadowsocks>Shadowsocks<a hidden class=anchor aria-hidden=true href=#shadowsocks>#</a></h3>
+<p>Shadowsocks（简称SS）是一种基于Socks5代理方式的加密传输协议，也可以指实现这个协议的各种开发包。</p>
+<p>Shadowsocks 使用自行设计的协议进行加密通信。加密算法有AES、Blowfish、ChaCha20、RC4等，除建立TCP连接外无需握手，每次请求只转发一个连接，无需保持“一直连线”的状态，因此在移动设备上相对较为省电。</p>
+<p>相较于 OpenVPN，WireGuard 等一流 VPN 协议，此类代理协议安全性能还是无法相提并论，使用它们泄露 IP 地址和其他重要信息的概率会大幅增加。</p>
+<p>由于使用的用户较多，目前已经被墙针对，翻墙效果大不如前，如果没有加混淆的话根本就无法连接成功。建议不要再使用 Shadowsocks 连接协议。</p>
+<h3 id=trojan>Trojan<a hidden class=anchor aria-hidden=true href=#trojan>#</a></h3>
+<p>Trojan英语翻译过来就是特洛伊木马的意思，这暗示了其绕过防火长城的方式，它将流量伪装成普通的HTTPS协议，从而达到绕过深包检测的目的，这类似于使用V2ray的WS+TLS模式。由于Trojan是最新刚刚兴起的翻墙工具，因此目前看来翻墙效果会更好。</p>
+<p>通过搭建真实的网站伪装为正常的HTTPS流量，不容易被墙检测到。不容易被QOS限速，因此速度和稳定性都更好。使用TLS安全层进行加密，防止数据泄露。</p>
+<p>不过由于 iOS 操作系统的封闭性，无法在国内找到对应的连接 APP。</p>
+<p>技术本身比较新，目前还没有被墙针对，或者是还没有被墙识别出来。除了 iOS 操作系统，建议优先使用 Trojan 连接协议，实测运行良好，比较稳定。</p>
+<h2 id=翻墙与科学上网总结>翻墙与科学上网总结<a hidden class=anchor aria-hidden=true href=#翻墙与科学上网总结>#</a></h2>
+<p>经过一番分析和对比，我们也看到了 <strong>Trojan 连接协议是目前最优的选择</strong>，使用 <strong>Clash 客户端</strong>进行配置连接。不过 iPhone 和 iPad 设备的用户就没那么幸运了，只能使用 AnyConnect 连接协议。</p>
+<p>最后还是要提醒尊贵的用户，不要使用 VPN 从事任何违法犯罪、黑客、网络攻击等行为，少在国内网上发言，说不准哪一天被邀请去喝茶。</p>
+<p>如果您连接不上，请获取最新的服务列表并更换服务器测试。在政治敏感时期可能会连接不稳定，建议更换服务器或协议重连，不便之处敬请原谅！</p>
+</div>
+<footer class=post-footer>
+<ul class=post-tags>
+</ul>
+</footer>
+</article>
+</main>
+<footer class=footer>
+<span>&copy; 2022 <a href=https://devpn.github.io/>得自由使用教程</a></span>
+<span>
+Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a>
+</span>
+</footer>
+<a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</a>
+<script>let menu=document.getElementById('menu');menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener("click",function(b){b.preventDefault();var a=this.getAttribute("href").substr(1);window.matchMedia('(prefers-reduced-motion: reduce)').matches?document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView({behavior:"smooth"}),a==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${a}`)})})</script>
+<script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script>
+<script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove('dark'),localStorage.setItem("pref-theme",'light')):(document.body.classList.add('dark'),localStorage.setItem("pref-theme",'dark'))})</script>
+</body>
+</html>

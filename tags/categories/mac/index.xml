@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>mac on 得自由使用教程</title>
+    <link>https://devpn.github.io/categories/mac/</link>
+    <description>Recent content in mac on 得自由使用教程</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 20 Oct 2022 17:00:29 +0800</lastBuildDate><atom:link href="https://devpn.github.io/categories/mac/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Clash for MacOS 使用教程</title>
+      <link>https://devpn.github.io/posts/trojan-mac/</link>
+      <pubDate>Thu, 20 Oct 2022 17:00:29 +0800</pubDate>
+      
+      <guid>https://devpn.github.io/posts/trojan-mac/</guid>
+      <description>下载安装 请点击此处下载 ClashX 软件包
+下载后运行 dmg 文件以安装。
+第一次安装如果提示隐私安全的提示，请选择——系统偏好设置——隐私与安全，点击允许。
+添加订阅 请先复制 Clash 配置链接，并将用户名修改为您在网站上注册的用户名，密码为注册时使用的密码。
+https://goen.win/rule/用户名/密码
+打开 ClashX，点击菜单栏中的 ClashX 图标 打开菜单，进入 配置 &amp;gt; 托管配置 &amp;gt; 管理。
+在 托管的配置文件 窗口，点击 “添加”
+在 Url 一栏中输入 Clash 配置订阅链接，Config Name 为配置文件名，可以随意填写或留空。
+注意：用户名和密码要填写您在网站上注册的用户名和密码
+添加成功后 ClashX 会自动从链接下载配置文件，等待 “更新时间” 刷新后，即可关闭窗口。
+设置为系统代理 打开 ClashX 菜单中的 “设置为系统代理”，ClashX 便开始接管系统流量。
+配置完成，打开浏览器享受自由吧。</description>
+    </item>
+    
+    <item>
+      <title>Anyconnect for MacOS 使用教程</title>
+      <link>https://devpn.github.io/posts/anyconnect-mac/</link>
+      <pubDate>Thu, 20 Oct 2022 11:13:11 +0800</pubDate>
+      
+      <guid>https://devpn.github.io/posts/anyconnect-mac/</guid>
+      <description>下载所需软件并进行安装 首先下载 CISCO AnyConnect，然后双击安装包进行安装。您可以到Cisco的官方网站下载，同时也提供快捷下载：
+请点击此处下载 AnyConnect MacOSX 安装包
+下载后运行 dmg 文件以安装。
+第一次安装如果提示隐私安全的提示，请选择——系统偏好设置——隐私与安全，点击允许。
+一直下步，到下图环节时，只选VPN即可。
+配置并填写服务器列表中的域名地址 服务器列表地址点击这里获取
+请选择列表中的其中一个域名填入对话框中，同时加上端口号 :448 ，点击 Connect 进行连接
+如果选择的域名连接不上，请填写列表中其他的域名进行连接，记得域名后面要加上端口号 :448
+填写用户名和密码 点击连接后会要求提示输入用户名和密码，请输入您在网站上注册的用户名和密码。
+连接成功 </description>
+    </item>
+    
+  </channel>
+</rss>
