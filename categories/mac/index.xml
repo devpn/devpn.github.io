@@ -33,11 +33,11 @@ https://goen.win/rule/用户名/密码
       <pubDate>Thu, 20 Oct 2022 11:13:11 +0800</pubDate>
       
       <guid>https://devpn.github.io/posts/anyconnect-mac/</guid>
-      <description>下载所需软件并进行安装 首先下载 CISCO AnyConnect，然后双击安装包进行安装。您可以到Cisco的官方网站下载，同时也提供快捷下载：
+      <description>下载所需软件并进行安装 首先下载 CISCO AnyConnect，然后双击安装包进行安装。您可以到 Cisco 的官方网站下载，同时也提供快捷下载：
 请点击此处下载 AnyConnect MacOSX 安装包
 下载后运行 dmg 文件以安装。
 第一次安装如果提示隐私安全的提示，请选择——系统偏好设置——隐私与安全，点击允许。
-一直下步，到下图环节时，只选VPN即可。
+一直下步，到下图环节时，只选 VPN 即可。
 配置并填写服务器列表中的域名地址 服务器列表地址点击这里获取
 请选择列表中的其中一个域名填入对话框中，同时加上端口号 :448 ，点击 Connect 进行连接
 如果选择的域名连接不上，请填写列表中其他的域名进行连接，记得域名后面要加上端口号 :448

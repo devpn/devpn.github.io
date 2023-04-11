@@ -13,7 +13,7 @@
       <pubDate>Thu, 20 Oct 2022 12:54:36 +0800</pubDate>
       
       <guid>https://devpn.github.io/posts/anyconnect-ios/</guid>
-      <description>下载所需软件并进行安装 打开 App store，搜索 anyconnect 并安装，安装完成，打开 AnyConnect，添加一个VPN连接。
+      <description>下载所需软件并进行安装 打开 App store，搜索 anyconnect 并安装，安装完成，打开 AnyConnect，添加一个 VPN 连接。
 开始准备创建连接 配置并填写服务器列表中的域名地址 服务器列表地址点击这里获取
 请选择列表中的其中一个域名填入对话框中，同时加上端口号 :448 ，点击 Connect 进行连接
 如果选择的域名连接不上，请填写列表中其他的域名进行连接，记得域名后面要加上端口号 :448
