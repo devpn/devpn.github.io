@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklego_front_devpn=self.webpackChunklego_front_devpn||[]).push([[3360],{83769:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);
