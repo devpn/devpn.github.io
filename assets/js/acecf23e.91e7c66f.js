@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklego_front_devpn=self.webpackChunklego_front_devpn||[]).push([[7393],{81838:e=>{e.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"Blog","authorsListPath":"/blog/authors"}')}}]);
