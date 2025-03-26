@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklego_front_devpn=self.webpackChunklego_front_devpn||[]).push([[7472],{55513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[]}')}}]);
